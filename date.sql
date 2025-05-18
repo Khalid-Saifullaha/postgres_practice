@@ -15,3 +15,17 @@ SELECT now()::time;
 SELECT CURRENT_DATE;
 
 SELECT to_char(now(), 'dd/mm/yyyy');
+
+SELECT CURRENT_DATE - INTERVAL '1 year 2 month';
+
+SELECT age(CURRENT_DATE, '1996-07-29');
+
+SELECT * FROM students;
+
+SELECT *, age(CURRENT_DATE, dob) FROM students;
+
+SELECT extract(YEAR FROM '2025-01-25'::date);
+
+SELECT extract(MONTH FROM '2025-01-25'::date);
+
+SELECT 'n'::BOOLEAN;
