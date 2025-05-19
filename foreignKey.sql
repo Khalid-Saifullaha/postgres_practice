@@ -11,6 +11,8 @@ CREATE TABLE post (
 
 DROP TABLE post;
 
+DROP Table "user";
+
 INSERT INTO "user" (username) VALUES
 ('akash'),
 ('batash'),
